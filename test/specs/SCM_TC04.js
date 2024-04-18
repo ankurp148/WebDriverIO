@@ -38,7 +38,7 @@ describe('Verify items', () => {
         let actualName = await actName.getText();
         assert.equal(actualName, 'Saba', 'VERIFIED');
 
-        await browser.pause(1000);
+        await browser.pause(1500);
 
     })
 })
